@@ -50,3 +50,23 @@ HTTP introduced:
 ```http
 GET /users/1 HTTP/1.1
 Host: example.com
+
+```
+### 🔹 Response 
+```md
+### Response
+```json
+{
+  "id": 1,
+  "name": "Mohit"
+}
+```md
+---
+## Key Takeaway
+✅ HTTP defines **how communication happens**  
+❌ HTTP does **not define API design rules**
+
+➡️ This limitation led to **REST**.
+
+
+
