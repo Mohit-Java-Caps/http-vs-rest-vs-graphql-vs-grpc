@@ -46,27 +46,20 @@ HTTP introduced:
 
 ## Simple Example
 
+
 ### Request
 ```http
 GET /users/1 HTTP/1.1
 Host: example.com
-
-```
-### 🔹 Response 
-```md
-### Response
-```json
+Response
 {
   "id": 1,
   "name": "Mohit"
 }
-```md
----
-## Key Takeaway
-✅ HTTP defines **how communication happens**  
-❌ HTTP does **not define API design rules**
-
-➡️ This limitation led to **REST**.
+Key Takeaway
+✅ HTTP defines how communication happens
+❌ HTTP does not define API design rules
+➡️ This limitation led to REST.
 
 
 
