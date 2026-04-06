@@ -37,6 +37,7 @@ Examples:
 
 ---
 
+
 ### 2. Each Resource Has a Unique URL
 Resources are identified using URLs.
 
@@ -44,3 +45,68 @@ Resources are identified using URLs.
 /users
 /users/1
 /orders/10
+
+
+```md
+The URL represents **what resource you are accessing**, not **what action you are performing**.
+
+---
+
+### 3. Use HTTP Methods Properly
+
+REST uses standard HTTP methods to define **actions** on resources.
+
+| HTTP Method | Purpose | Example |
+|------------|--------|---------|
+| GET | Retrieve data | GET /users/1 |
+| POST | Create data | POST /users |
+| PUT | Update data | PUT /users/1 |
+| DELETE | Remove data | DELETE /users/1 
+
+
+---
+
+### 4. Stateless Communication
+
+Each REST request contains **all the information** the server needs.
+
+- Server does not store client state
+- Each request is independent
+- Makes APIs scalable and reliable
+
+---
+
+## REST API Example
+
+### Request
+```http
+GET /users/1 HTTP/1.1
+Host: example.com
+
+### Response
+```json
+{
+  "id": 1,
+  "name": "Mohit",
+  "email": "mohit@example.com"
+}
+
+---
+
+## Advantages of REST
+✅ Easy to understand and implement  
+✅ Uses standard HTTP concepts  
+✅ Human-readable and debuggable  
+✅ Widely adopted in the industry  
+
+---
+
+## Limitations of REST
+❌ Over-fetching (extra unnecessary data)  
+❌ Under-fetching (missing required data)  
+❌ Multiple API calls needed for one screen  
+
+These limitations become more visible in:
+- Mobile applications
+
+
