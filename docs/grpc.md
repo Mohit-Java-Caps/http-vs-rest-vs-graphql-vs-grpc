@@ -190,5 +190,3 @@ mutation {
 
 ➡️ For high‑performance service‑to‑service communication, **gRPC** is often preferred.
 
-Say **“gRPC next”**, and we’ll complete the full comparison set cleanly 🚀
-````
