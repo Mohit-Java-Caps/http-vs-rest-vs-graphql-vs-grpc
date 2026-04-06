@@ -46,8 +46,6 @@ Resources are identified using URLs.
 /users/1
 /orders/10
 
-
-```md
 The URL represents **what resource you are accessing**, not **what action you are performing**.
 
 ---
