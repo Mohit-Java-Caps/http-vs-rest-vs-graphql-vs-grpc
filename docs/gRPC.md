@@ -161,8 +161,3 @@ This makes gRPC suitable for:
 
 ➡️ In modern systems, it’s common to use **REST or GraphQL externally** and **gRPC internally**.
 
-
-
-
-Just tell me 👍
-```
