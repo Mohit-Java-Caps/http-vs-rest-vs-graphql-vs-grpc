@@ -1,7 +1,3 @@
-Got it ✅  
-Below is the **complete REST API section written cleanly in pure Markdown (`.md`)**, **correct syntax**, **no broken code blocks**, and **ready to copy‑paste**.
-
-👉 **Do not change anything** while pasting. This version is tested mentally against GitHub Markdown rendering and **will render correctly**.
 
 ***
 
@@ -151,7 +147,4 @@ These limitations become more visible in:
 
 ➡️ These challenges led to **GraphQL**.
 
-````
-
----
 
