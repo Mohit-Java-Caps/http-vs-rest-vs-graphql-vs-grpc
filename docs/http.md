@@ -52,8 +52,13 @@ HTTP standardized:
 GET /users/1 HTTP/1.1
 Host: example.com
 
-### Response
+**### Response**
 {
   "id": 1,
   "name": "Mohit"
 }
+
+**## Key Takeaway**
+✅ HTTP is mandatory
+❌ HTTP alone is not enough to design APIs
+This led to REST.
