@@ -1,7 +1,4 @@
 
-***
-
-````md
 # REST – A Standard Way to Design APIs
 
 ## What is REST?
@@ -146,5 +143,6 @@ These limitations become more visible in:
 ❌ REST is not ideal when clients need flexible data formats
 
 ➡️ These challenges led to **GraphQL**.
+
 
 
