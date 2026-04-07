@@ -30,10 +30,6 @@ Many developers confuse these terms as alternatives, but they actually work at *
 > REST & GraphQL define API design  
 > gRPC optimizes machine-to-machine communication
 
-Perfect way to close the repo 👌  
-Below is a **final comparison section** you can place **at the end of your `README.md`**.  
-It ties **HTTP → REST → GraphQL → gRPC** together clearly and visually, and it’s **portfolio‑ready**.
-
 ***
 
 ## ✅ Final Comparison: HTTP vs REST vs GraphQL vs gRPC
